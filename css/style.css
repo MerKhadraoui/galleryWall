@@ -36,3 +36,31 @@ img {
   top: 44%;
   right: 40%;
 }
+#img1:hover {
+  filter: grayscale(10%);
+  transform: translateZ(1);
+  cursor: progress;
+  object-position: 1;
+  transition: 2s;
+}
+#img2:hover {
+  filter: grayscale(10%);
+  transform: translateZ(1);
+  cursor: progress;
+  object-position: 1;
+  transition: 2s;
+}
+#img3:hover {
+  filter: grayscale(10%);
+  transform: translateZ(1);
+  cursor: progress;
+  object-position: 1;
+  transition: 2s;
+}
+#img4:hover {
+  filter: grayscale(10%);
+  transform: translateZ(1);
+  cursor: progress;
+  object-position: 1;
+  transition: 2s;
+}
