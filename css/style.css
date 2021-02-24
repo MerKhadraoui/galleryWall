@@ -1,13 +1,15 @@
 img {
   background-color: white;
   padding: 0.5rem;
-  padding-bottom: 0.7rem;
+  padding-bottom: 1.7rem;
   border: 1px black;
   width: 15rem;
   height: 15rem;
+  opacity: 0.5; /* transparaion  */
 
+  transition: 4s;
+  z-index: auto;
   filter: grayscale(90%);
-  position: absolute;
 }
 #img1 {
   transform: rotate(20deg);
@@ -15,7 +17,6 @@ img {
   top: 40px;
   left: 30px;
   bottom: 20px;
-  z-index: 1;
 }
 #img2 {
   transform: rotate(30deg);
@@ -23,21 +24,18 @@ img {
   top: 50px;
   right: 60px;
   bottom: 20px;
-  z-index: 4;
 }
 
 #img3 {
   transform: rotate(22deg);
   position: relative;
   top: 10px;
-  left: 20px;
+  right: 20px;
   bottom: 20px;
-  z-index: 3;
 }
 #img4 {
   transform: rotate(16deg);
   position: relative;
   top: 44px;
   right: 60px;
-  z-index: 2;
 }
